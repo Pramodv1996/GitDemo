@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.239">
+    <testcase classname="Login into RahulShetty academy application" name="forgot password" time="19.564">
+        <system-out>
+            <![CDATA[Given user try to login with the valid username "Pramodvgwd600@gmail.com" and invalid Password "Pramod".passed
+Then user should be able to redirected to the appropriate page when clicking on Forgot Password link.passed
+And navigate to Gmail with the new window and refresh the mails.............passed
+And select the proper mail with the title Rahul Shetty having a current date and fetch the OTP.passed
+Then redirect to Rahul Sheety academy and click on submit by giving valid OTP.passed
+And By giving the new password and Confirm Password user must able to login.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

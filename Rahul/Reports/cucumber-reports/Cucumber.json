@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-03T09:04:13.905Z",
+        "line": 3,
+        "name": "forgot password",
+        "description": "",
+        "id": "login-into-rahulshetty-academy-application;forgot-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19449208300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user try to login with the valid username \"Pramodvgwd600@gmail.com\" and invalid Password \"Pramod\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pramodvgwd600@gmail.com\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Pramod\"",
+                  "offset": 89
+                }
+              ],
+              "location": "stepDefinations.loginStepDef.user_try_to_login_with_the_valid_username_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able to redirected to the appropriate page when clicking on Forgot Password link",
+            "match": {
+              "location": "stepDefinations.loginStepDef.user_should_be_able_to_redirected_to_the_appropriate_page_when_clicking_on_forgot_password_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 302700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to Gmail with the new window and refresh the mails",
+            "match": {
+              "location": "stepDefinations.loginStepDef.navigate_to_gmail_with_the_new_window_and_refresh_the_mails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select the proper mail with the title Rahul Shetty having a current date and fetch the OTP",
+            "match": {
+              "location": "stepDefinations.loginStepDef.select_the_proper_mail_with_the_title_rahul_shetty_having_a_current_date_and_fetch_the_otp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1047600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "redirect to Rahul Sheety academy and click on submit by giving valid OTP",
+            "match": {
+              "location": "stepDefinations.loginStepDef.redirect_to_rahul_sheety_academy_and_click_on_submit_by_giving_valid_otp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "By giving the new password and Confirm Password user must able to login",
+            "match": {
+              "location": "stepDefinations.loginStepDef.by_giving_the_new_password_and_confirm_password_user_must_able_to_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login into RahulShetty academy application",
+    "description": "",
+    "id": "login-into-rahulshetty-academy-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
